@@ -2,42 +2,105 @@
   "parts": [
     {
       "id": 0,
-      "name": "Part 1",
-      "text": "This is part 1",
+      "name": "Part 1 the ultimate choice",
+      "text1": "In Part 1 of the magical cat adventure, the protagonist finds themselves in the heart of the Enchanted Forest in Felinia. They encounter a mischievous black cat named Shadow, who beckons them to follow. The protagonist faces the choice of either following Shadow deeper into the magical forest or asking Shadow about their surroundings. This sets the stage for the unfolding quest, introducing the enchanting world of talking cats and setting the tone for the choices and mysteries to come. You are getting the choice to choose between a magical sword or a wizard wand, which will you choose?",
       "options": [
         {
           "id": 0,
-          "text": "This takes you to part 2",
+          "text": "Wizard wand",
           "target": 1
         },
         {
           "id": 1,
-          "text": "This takes you to part 3",
+          "text": "Magical sword",
           "target": 2
         }
       ]
     },
     {
       "id": 1,
-      "name": "Part 2",
-      "text": "This is part 2",
+      "name": "Good choice brave wizard",
+      "text1": "Embracing the path of the Cat Wizard with a magic wand proved to be an extraordinary choice in the mystical journey through Felinia. As you delved into the arcane arts, your mastery over magical energies grew, allowing you to weave spells that resonated with the very essence of the enchanted forest.The wand, a conduit for your newfound powers, became an extension of your feline prowess. With it, you harnessed elemental magic to navigate the challenges of the Crow's Nest, facing and overcoming the wicked crows with finesse and precision. The magic wand's versatility allowed you to adapt to various situations, from dispelling illusions to conjuring protective barriers. Now you must continue your epic adventure",
       "options": [
         {
           "id": 2,
           "text": "Go back to start",
           "target": 0
+        },
+        {
+          "id": 3,
+          "text": "Explore further into the magical forest",
+          "target": 3
         }
       ]
     },
     {
       "id": 2,
-      "name": "Part 3",
-      "text": "This is part 3",
+      "name": "Good choice brave warrior",
+      "text1": "Opting for the path of the Cat Warrior and wielding the magical sword proved to be a strategic and powerful choice in the unfolding adventure through Felinia. As you embraced the role of a guardian with a focus on combat proficiency, the enchanted sword became an extension of your feline prowess, gleaming with magical energies that resonated with the very heart of the enchanted forest.The magical sword, infused with mystical properties, became a formidable tool in your quest to reclaim the stolen Moon Crystal from the clutches of the cunning crows. Its radiant glow cut through the darkness of the Crow's Nest, and its magical properties enhanced your agility and strength. The sword's versatility allowed you to engage in battles with both precision and might, overcoming the challenges that lurked in the magical realm. Now you must continue your epic adventure",
       "options": [
         {
           "id": 4,
           "text": "Go back to part 2",
           "target": 1
+        },
+        {
+          "id": 5,
+          "text": "Continue to part 4",
+          "target": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Encounter in the magical forest! ",
+      "text1": "As you venture deeper into the Enchanted Forest, the air thickens with an otherworldly energy. Shafts of moonlight pierce through the dense foliage, creating an ethereal glow. Suddenly, a rustle in the underbrush catches your attention. A pair of glowing eyes appear, and before you stands a formidable creature known as the Shadow Lynx, a mystical guardian of the forest.The Shadow Lynx, its sleek black fur adorned with shimmering patterns that seem to dance in the moonlight, regards you with an intense gaze. This magical creature, agile and elusive, is known for testing the mettle of those who enter its territory. As it prowls towards you, the underbrush seems to part as if acknowledging the presence of a guardian.A low growl emanates from the Shadow Lynx as it circles, its eyes never leaving you. The ground beneath its paws seems to ripple with magical energy. The encounter requires you to make a decision:",
+      "text2":"1. Convince the Shadow Lynx of Your Good Intentions:You attempt to communicate with the Shadow Lynx, expressing your purpose in Felinia and the quest to retrieve the stolen Moon Crystal. A successful interaction may earn its trust, turning the formidable creature into a potential ally.",
+      "text3": "2. Engage in a Magical Duel:Sensing the challenge in the air, you decide to face the Shadow Lynx in a magical duel. You draw upon the powers of your chosen magical weapon, either the wand or the sword, to demonstrate your strength and determination. A victory in this duel may lead to the creature acknowledging your prowess and allowing safe passage. Choose your approach wisely, for the encounter with the Shadow Lynx holds the potential to shape the course of your magical journey through the Enchanted Forest.",
+      "options": [
+        {
+          "id": 6,
+          "text": "Return to part 2",
+          "target": 1
+        },
+        {
+          "id": 7,
+          "text": "Move to part 5",
+          "target": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Part 5",
+      "text": "This is part 5",
+      "options": [
+        {
+          "id": 8,
+          "text": "Go back to part 3",
+          "target": 2
+        },
+        {
+          "id": 9,
+          "text": "Choose the final path",
+          "target": 6
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Part 6",
+      "text": "This is the final part",
+      "options": [
+        {
+          "id": 10,
+          "text": "Restart the story",
+          "target": 0
+        },
+        {
+          "id": 11,
+          "text": "End the story",
+          "target": -1
         }
       ]
     }
