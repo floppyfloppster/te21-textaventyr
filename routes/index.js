@@ -18,3 +18,17 @@ router.get('/story/:id', function (req, res) {
 })
 
 module.exports = router
+router.post('/username', function (req, res) {
+  req.session.username = req.body.username
+  console.log(req.session.username)
+  res.redirect('/story')
+})
+
+{
+
+const name = part.name.replace('[PLAYER]', req.session.username)
+part = { ...part, name: name }
+res.render('part.njk', { title: name, part: part })
+}
+
+module.exports = router

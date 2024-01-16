@@ -60,20 +60,21 @@
       "options": [
         {
           "id": 6,
-          "text": "Return to part 2",
+          "text": "Convince the lynx!",
           "target": 1
         },
         {
           "id": 7,
-          "text": "Move to part 5",
+          "text": "FIGHT UNTIL DEATH",
           "target": 5
         }
       ]
     },
     {
-      "id": 4,
+      "id": 8,
       "name": "Part 5",
-      "text": "This is part 5",
+      "text1": "Opting to convince the Shadow Lynx of your good intentions, you take a deep breath and speak with a calming tone. You explain your quest to retrieve the stolen Moon Crystal, emphasizing your commitment to restoring the balance of magic in Felinia. As you communicate, you notice a subtle change in the creature's demeanor – its eyes soften, and the low growl diminishes.",
+      "text2": "In response to your words, the Shadow Lynx pauses and sits back on its haunches, observing you with a discerning gaze. The magical patterns on its fur shimmer more gently, reflecting a newfound understanding. Slowly, the creature approaches and nudges against you, a sign of acceptance.",
       "options": [
         {
           "id": 8,

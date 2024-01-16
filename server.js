@@ -1,7 +1,7 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
 const bodyParser = require('body-parser')
-
+const session = require('express-session')
 const indexRouter = require('./routes/index')
 
 const port = process.env.PORT || 3000
@@ -18,6 +18,14 @@ app.use(bodyParser.json())
 app.use(express.static('public'))
 
 app.use((req, res, next) => {
+  app.use(
+    session({
+      secret: 'wekiugfkbnvway43',
+      resave: false,
+      saveUninitialized: true,
+      cookie: { secure: true },
+    })
+  )
   res.locals.url = req.originalUrl
   next()
 })
