@@ -15,6 +15,12 @@ router.get('/story/:id', function (req, res) {
     return
   }
   res.render('part.njk', { title: part.name, part: part })
+  {
+
+    const name = part.name.replace('[PLAYER]', req.session.username)
+    part = { ...part, name: name }
+    res.render('part.njk', { title: name, part: part })
+  }
 })
 
 module.exports = router
@@ -24,11 +30,5 @@ router.post('/username', function (req, res) {
   res.redirect('/story')
 })
 
-{
-
-const name = part.name.replace('[PLAYER]', req.session.username)
-part = { ...part, name: name }
-res.render('part.njk', { title: name, part: part })
-}
 
 module.exports = router
