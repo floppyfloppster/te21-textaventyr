@@ -55,14 +55,9 @@
       "id": 3,
       "name": "Encounter in the magical forest! ",
       "text1": "As you venture deeper into the Enchanted Forest, the air thickens with an otherworldly energy. Shafts of moonlight pierce through the dense foliage, creating an ethereal glow. Suddenly, a rustle in the underbrush catches your attention. A pair of glowing eyes appear, and before you stands a formidable creature known as the Shadow Lynx, a mystical guardian of the forest.The Shadow Lynx, its sleek black fur adorned with shimmering patterns that seem to dance in the moonlight, regards you with an intense gaze. This magical creature, agile and elusive, is known for testing the mettle of those who enter its territory. As it prowls towards you, the underbrush seems to part as if acknowledging the presence of a guardian.A low growl emanates from the Shadow Lynx as it circles, its eyes never leaving you. The ground beneath its paws seems to ripple with magical energy. The encounter requires you to make a decision:",
-      "text2":"1. Convince the Shadow Lynx of Your Good Intentions:You attempt to communicate with the Shadow Lynx, expressing your purpose in Felinia and the quest to retrieve the stolen Moon Crystal. A successful interaction may earn its trust, turning the formidable creature into a potential ally.",
-      "text3": "2. Engage in a Magical Duel:Sensing the challenge in the air, you decide to face the Shadow Lynx in a magical duel. You draw upon the powers of your chosen magical weapon, either the wand or the sword, to demonstrate your strength and determination. A victory in this duel may lead to the creature acknowledging your prowess and allowing safe passage. Choose your approach wisely, for the encounter with the Shadow Lynx holds the potential to shape the course of your magical journey through the Enchanted Forest.",
+      "text3": "You need to engage in a Magical Duel:Sensing the challenge in the air, you decide to face the Shadow Lynx in a magical duel. You draw upon the powers of your chosen magical weapon, either the wand or the sword, to demonstrate your strength and determination. A victory in this duel may lead to the creature acknowledging your prowess and allowing safe passage. Choose your approach wisely, for the encounter with the Shadow Lynx holds the potential to shape the course of your magical journey through the Enchanted Forest.",
       "options": [
-        {
-          "id": 6,
-          "text": "Convince the lynx!",
-          "target": 1
-        },
+        
         {
           "id": 7,
           "text": "FIGHT UNTIL DEATH",
@@ -90,8 +85,12 @@
     },
     {
       "id": 5,
-      "name": "Part 6",
-      "text": "This is the final part",
+      "name": "Final fight",
+      "text1": "The lynx, possessed powers beyond my comprehension. As we clashed in the moonlit glade, it effortlessly dodged my attacks, its movements swift and elusive. Unleashing mystical abilities, the lynx conjured illusions that disoriented my senses, making it impossible to predict its next move.",
+      "text2": "With each failed attempt to strike the magical beast, I grew more fatigued, and my once-confident spirit waned. The lynx, sensing my vulnerability, summoned the very essence of the forest to aid its cause. Roots rose from the ground, entwining me in a magical snare that drained my strength.",
+      "text3": "In the end, overwhelmed by the lynx's powers and the enchantments of the forest, I succumbed to defeat. As the mystical glow faded from its eyes, the lynx regarded me with a mixture of sorrow and understanding, a silent acknowledgment of the consequences of challenging the magic that bound the woodland.",
+      "text4":"My vision blurred, the forest embraced me one final time before darkness claimed my consciousness. In the heart of the enchanted grove, a brave adventurer's tale came to a close, a cautionary note in the whispers of the ancient trees.",
+      "text5": "You sadly pass away from the fight and cannot go on...",
       "options": [
         {
           "id": 10,
