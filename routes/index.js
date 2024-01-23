@@ -23,7 +23,18 @@ router.get('/story/:id', function (req, res) {
   }
 })
 
-module.exports = router
+const pool = require('../db')
+router.get('/dbtest', async(req, res) => {
+  try {
+    const [parts] = await pool.promise().query('SELECT * FROM nova_part')
+    res.json({ parts })
+  } catch (error) {
+    console.log(error)
+    res.sendStatus(500)
+  }
+})
+
+
 router.post('/username', function (req, res) {
   req.session.username = req.body.username
   console.log(req.session.username)
